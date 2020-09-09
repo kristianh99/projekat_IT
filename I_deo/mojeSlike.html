@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Moje slike</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container1">
+    <div class="row">
+        <div class="col-12 naslov">
+            <h2>MOJA STRANICA</h2>
+        </div>
+    </div>
+    <nav class="row">
+        <div class="col-12 col-md-6">
+            <button><a href="index.php">POČETNA</a></button>
+        </div>
+        <div class="col-12 col-md-6 datum">
+            <?php
+                echo Date("d.m.Y.");
+                ?>
+        </div>
+    </nav>
+
+    <div class="row moje-slike">
+        <div class="col-12 naslov-slike">
+            <h3>MOJE SLIKE</h3>
+        </div>
+    </div>
+    <div class="row moje-slike">
+        <div class="col-12 col-md-4 slika"><a href="https://static.toiimg.com/thumb/72975551.cms?width=680&height=512&imgsize=881753"><img src="slike/1.jpg" width="100%" height="auto"></a></div>
+        <div class="col-12 col-md-4 slika"><a href="https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072823__340.jpg"><img src="slike/2.jpg" width="100%" height="auto"></a></div>
+        <div class="col-12 col-md-4 slika"><a href="https://bd.gaadicdn.com/processedimages/tvs/tvs-xl100/source/tvs-xl1005e8d6902ae30c.jpg?tr=w-360"><img src="slike/3.jpg" width="100%" height="auto"></a></div>
+    </div>
+    <div class="row moje-slike">
+        <div class="col-12 col-md-4 slika"><a href="https://cdn.jpegmini.com/user/images/slider_puffin_jpegmini_mobile.jpg"><img src="slike/4.jpg" width="100%" height="auto"></a></div>
+        <div class="col-12 col-md-4 slika"><a href="https://helpx.adobe.com/content/dam/help/en/stock/how-to/visual-reverse-image-search/jcr_content/main-pars/image/visual-reverse-image-search-v2_intro.jpg"><img src="slike/5.jpg" width="100%" height="auto"></a></div>
+        <div class="col-12 col-md-4 slika"><a href="https://www.israel21c.org/wp-content/uploads/2020/07/main-pic-4-1168x657.jpg"><img src="slike/6.jpg" width="100%" height="auto"></a></div>
+    </div>
+    <div class="row moje-slike">
+        <div class="col-12 col-md-4 slika"><a href="https://images.theconversation.com/files/285143/original/file-20190722-11355-1peled7.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=926&fit=clip"><img src="slike/7.jpg" width="100%" height="auto"></a></div>
+        <div class="col-12 col-md-4 slika"><a href="https://images.theconversation.com/files/217598/original/file-20180503-153884-17cuab8.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=754&fit=clip"><img src="slike/8.jpg" width="100%" height="auto"></a></div>
+        <div class="col-12 col-md-4 slika"><a href="https://www.niabizoo.com/wp-content/uploads/2018/05/ms-animals-habitats-mammals.jpg"><img src="slike/9.jpg" width="100%" height="auto"></a></div>
+    </div>
+    <footer class="row">
+        <div class="col-12"><h4>footer</h4></div>
+    </footer>
+</div>
+</body>
+</html>

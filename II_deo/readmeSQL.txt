@@ -1,0 +1,1 @@
+napraviti novu bazu sa imenom "sutect" i posle importovati "sutech.sql"

@@ -1,0 +1,69 @@
+body{
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed ;
+    padding: 0;
+    margin: 0;
+}
+
+div .container1{
+    padding: 0;
+    margin: 0;
+}
+
+div .naslov{
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+h3{
+    text-align: center;
+}
+
+nav{
+    background-color: #a7a7a7;
+    padding: 15px;
+}
+
+div a{
+    text-decoration: none;
+    border: #929090 solid 1px;
+    border-radius: 6px;
+    background: #929090;
+    color: black;
+    padding: 4px 8px 4px 8px;
+    margin-top: 15px;
+}
+
+div a:hover{
+    text-decoration: none;
+    background: #858282;
+    border: #858282 solid 1px;
+    color: white;
+}
+
+
+
+.pozdrav{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.slika{
+    padding: 0;
+}
+
+.proizv{
+    background-color: white;
+    text-align: center;
+}
+
+.proizv .proizv1:hover{
+    background-color: #efecec;
+}
